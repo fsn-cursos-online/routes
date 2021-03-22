@@ -1,0 +1,20 @@
+{
+    "name": "fsn/router",
+    "description": "Configuraçao de Sistema de Rotas PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabio Souza FSN Cursos Online",
+            "email": "fsncursosonline@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "core\\" : "core/"
+        }
+    }
+}

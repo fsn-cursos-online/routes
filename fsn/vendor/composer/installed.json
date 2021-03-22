@@ -1,0 +1,49 @@
+{
+    "packages": [
+        {
+            "name": "fsn/router",
+            "version": "1.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fsn-cursos-online/router.git",
+                "reference": "db0d87edd31d5fb50a6c53e25a5b1633055416e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fsn-cursos-online/router/zipball/db0d87edd31d5fb50a6c53e25a5b1633055416e6",
+                "reference": "db0d87edd31d5fb50a6c53e25a5b1633055416e6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "time": "2021-03-14T18:13:00+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "core\\": "core/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabio Souza FSN Cursos Online",
+                    "email": "fsncursosonline@gmail.com"
+                }
+            ],
+            "description": "Configuraçao de Sistema de Rotas PHP",
+            "support": {
+                "issues": "https://github.com/fsn-cursos-online/router/issues",
+                "source": "https://github.com/fsn-cursos-online/router/tree/1.0"
+            },
+            "install-path": "../fsn/router"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
